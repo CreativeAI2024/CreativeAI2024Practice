@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,6 +21,6 @@ public class ShowImage : MonoBehaviour
 
     public void ChangeImage()
     {
-        // ここに画像を変更するコードを書いてね
+        // ここにimageの画像をspriteに変更するコードを書いてね
     }
 }

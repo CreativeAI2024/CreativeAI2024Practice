@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
@@ -21,6 +19,6 @@ public class CharacterMove : MonoBehaviour
 
     public void MovePosition()
     {
-        // ここに処理を書いてね
+        // ここにこのオブジェクトの位置をtoの位置に移動する処理を書いてね
     }
 }
