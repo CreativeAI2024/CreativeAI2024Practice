@@ -4,7 +4,9 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Logic"
+        "Logic",
+        "Unity.InputSystem",
+        "Unity.InputSystem.TestFramework"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

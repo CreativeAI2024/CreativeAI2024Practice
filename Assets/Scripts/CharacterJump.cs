@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CharacterJump : MonoBehaviour
 {
-    public Rigidbody rigidbody;
+    public Rigidbody m_rigidbody;
     /// <summary>
     /// 地面にいるかどうかを表すフラグ
     /// </summary>

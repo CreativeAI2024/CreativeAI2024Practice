@@ -9,7 +9,7 @@ namespace Tests
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
         // `yield return null;` to skip a frame.
         [Test]
-        public void ImageTestWithEnumeratorPasses()
+        public void ImageSimpleTest()
         {
             var obj = new GameObject();
             ShowImage logicObj = obj.AddComponent<ShowImage>();

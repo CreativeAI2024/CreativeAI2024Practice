@@ -1,8 +1,7 @@
 {
-    "name": "Logic",
+    "name": "Util",
     "rootNamespace": "",
     "references": [
-        "GUID:a7107172d28d76343b980bac622be67e",
         "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [],

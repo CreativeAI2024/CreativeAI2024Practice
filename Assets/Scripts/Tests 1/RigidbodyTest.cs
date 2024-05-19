@@ -12,8 +12,8 @@ public class RigidbodyTest
     {
         GameObject obj = new GameObject();
         CharacterJump logic = obj.AddComponent<CharacterJump>();
-        logic.rigidbody = obj.AddComponent<Rigidbody>();
-        Rigidbody rb = logic.rigidbody;
+        logic.m_rigidbody = obj.AddComponent<Rigidbody>();
+        Rigidbody rb = logic.m_rigidbody;
         logic.isGround = true;
         Vector3 beforeVelocity = rb.velocity;
         logic.Jump();
@@ -26,8 +26,8 @@ public class RigidbodyTest
     {
         GameObject obj = new GameObject();
         CharacterJump logic = obj.AddComponent<CharacterJump>();
-        logic.rigidbody = obj.AddComponent<Rigidbody>();
-        Rigidbody rb = logic.rigidbody;
+        logic.m_rigidbody = obj.AddComponent<Rigidbody>();
+        Rigidbody rb = logic.m_rigidbody;
         Vector3 beforeVelocity = rb.velocity;
         logic.isGround = false;
         logic.Jump();
@@ -41,7 +41,7 @@ public class RigidbodyTest
     {
         GameObject obj = new GameObject();
         CharacterJump logic = obj.AddComponent<CharacterJump>();
-        logic.rigidbody = obj.AddComponent<Rigidbody>();
+        logic.m_rigidbody = obj.AddComponent<Rigidbody>();
         logic.isGround = true;
         logic.Jump();
         yield return new WaitForFixedUpdate();
