@@ -2,9 +2,7 @@ using UnityEngine;
 
 public class SceneChanger : MonoBehaviour
 {
-    #region 変更しないでね
     public string changeSceneName = "NewScene";
-    #endregion
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +17,7 @@ public class SceneChanger : MonoBehaviour
 
     public void SceneChange()
     {
-        // NewScene.unityを作成して
-        // ここにシーンをNewSceneに変更する処理を書いてね
+        // ProjectタブからNewScene.unityを作成して
+        // ここにシーンをchangeSceneNameに変更する処理を書いてね
     }
 }

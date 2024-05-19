@@ -3,10 +3,8 @@ using UnityEngine.UI;
 
 public class ShowImage : MonoBehaviour
 {
-    #region 変更しないでね
     public Image image;
     public Sprite sprite;
-    #endregion
     // Start is called before the first frame update
     void Start()
     {
