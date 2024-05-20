@@ -1,6 +1,8 @@
+using System.Numerics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Util;
+using Vector3 = UnityEngine.Vector3;
 
 public class CharacterControl : MonoBehaviour
 {

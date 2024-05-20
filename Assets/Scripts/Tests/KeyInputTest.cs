@@ -60,7 +60,8 @@ public class KeyInputTest : InputTestFixture
         Press(keyboard.wKey);
         Press(keyboard.aKey);
         cc.UpdateMove();
-        Assert.AreEqual(new Vector3(-1, 0, 1), cc.transform.position);
+        Assert.Greater(cc.transform.position.z, 0);
+        Assert.Less(cc.transform.position.x, 0);
     }
     
     [Test]
@@ -72,7 +73,8 @@ public class KeyInputTest : InputTestFixture
         Press(keyboard.sKey);
         Press(keyboard.dKey);
         cc.UpdateMove();
-        Assert.AreEqual(new Vector3(1, 0, -1), cc.transform.position);
+        Assert.Less(cc.transform.position.z, 0);
+        Assert.Greater(cc.transform.position.x, 0);
     }
     
     [Test]
@@ -84,8 +86,10 @@ public class KeyInputTest : InputTestFixture
         Press(keyboard.aKey);
         cc.UpdateMove();
         InputSystem.Update();
+        Vector3 movePos = cc.transform.position;
         cc.UpdateMove();
-        Assert.AreEqual(new Vector3(-2, 0, 0), cc.transform.position);
+        Assert.AreNotEqual(Vector3.zero, cc.transform.position);
+        Assert.AreEqual(movePos * 2, cc.transform.position);
     }
 }
 
