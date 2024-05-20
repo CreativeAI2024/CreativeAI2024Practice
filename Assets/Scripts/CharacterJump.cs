@@ -25,12 +25,12 @@ public class CharacterJump : MonoBehaviour
     
     public void Jump()
     {
-        // 地面にいるときにrigidbodyのオブジェクトをjumpPowerの力で上にジャンプさせる処理を書いてね
+        // 地面にいるときにm_rigidbodyのオブジェクトをjumpPowerの力で上にジャンプさせる処理を書いてね
         // isGroundも考慮してね
     }
 
     public void OnCollisionEnter(Collision other)
     {
-        // 地面オブジェクト(Groundタグがついている)に衝突したときだけisJumpableをtrueにする処理を書いてね
+        // 地面オブジェクト(Groundタグがついている)に衝突したときだけisGroundをtrueにする処理を書いてね
     }
 }

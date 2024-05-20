@@ -1,4 +1,0 @@
-repository "CreativeAI2024Practice@kawakana0510@cloud"
-  path "/"
-    br "/main"
-    co "/main"
