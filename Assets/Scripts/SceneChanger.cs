@@ -14,10 +14,13 @@ public class SceneChanger : MonoBehaviour
     {
         
     }
-
+    
+    /// <summary>
+    /// ProjectタブからNewScene.unityを作成して
+    /// ここにシーンを<see cref="changeSceneName"/>に変更する処理を書いてね
+    /// </summary>
     public void SceneChange()
     {
-        // ProjectタブからNewScene.unityを作成して
-        // ここにシーンをchangeSceneNameに変更する処理を書いてね
+        
     }
 }

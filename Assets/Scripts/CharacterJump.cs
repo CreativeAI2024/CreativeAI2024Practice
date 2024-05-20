@@ -22,15 +22,21 @@ public class CharacterJump : MonoBehaviour
     {
         
     }
-    
+    /// <summary>
+    /// 地面にいるときに<see cref="m_rigidbody"/>のオブジェクトを<see cref="jumpPower"/>の力で上にジャンプさせる処理を書いてね
+    /// <see cref="isGround"/>も考慮してね
+    /// </summary>
     public void Jump()
     {
-        // 地面にいるときにm_rigidbodyのオブジェクトをjumpPowerの力で上にジャンプさせる処理を書いてね
-        // isGroundも考慮してね
+        
     }
-
+    
+    /// <summary>
+    /// 地面オブジェクト(Groundタグがついている)に衝突したときだけ<see cref="isGround"/>をtrueにする処理を書いてね
+    /// </summary>
+    /// <param name="other">衝突したオブジェクト</param>
     public void OnCollisionEnter(Collision other)
     {
-        // 地面オブジェクト(Groundタグがついている)に衝突したときだけisGroundをtrueにする処理を書いてね
+        
     }
 }

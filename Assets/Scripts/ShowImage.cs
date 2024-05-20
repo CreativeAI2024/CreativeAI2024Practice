@@ -16,9 +16,12 @@ public class ShowImage : MonoBehaviour
     {
         
     }
-
+    
+    /// <summary>
+    /// ここに<see cref="image"/>の画像を<see cref="sprite"/>に変更するコードを書いてね
+    /// </summary>
     public void ChangeImage()
     {
-        // ここにimageの画像をspriteに変更するコードを書いてね
+        
     }
 }

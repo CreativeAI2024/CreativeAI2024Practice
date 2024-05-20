@@ -15,9 +15,12 @@ public class CharacterMove : MonoBehaviour
     {
         
     }
-
+    
+    /// <summary>
+    /// ここにこのオブジェクトの位置を<see cref="to"/>の位置に移動する処理を書いてね
+    /// </summary>
     public void MovePosition()
     {
-        // ここにこのオブジェクトの位置をtoの位置に移動する処理を書いてね
+        
     }
 }

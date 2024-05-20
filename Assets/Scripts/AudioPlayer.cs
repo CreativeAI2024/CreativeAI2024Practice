@@ -17,9 +17,11 @@ public class AudioPlayer : MonoBehaviour
     {
         
     }
-
+    /// <summary>
+    /// <see cref="audioSource"/>で<see cref="audioClip"/>の音楽が再生されるような処理を書いてね
+    /// </summary>
     public void PlayBGM()
     {
-        // audioSourceでaudioClipの音楽が再生されるような処理を書いてね
+        
     }
 }
