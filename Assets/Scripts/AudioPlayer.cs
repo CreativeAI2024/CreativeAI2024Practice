@@ -9,7 +9,7 @@ public class AudioPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -22,6 +22,9 @@ public class AudioPlayer : MonoBehaviour
     /// </summary>
     public void PlayBGM()
     {
-        
+        //audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource.clip = audioClip;
+        //audioSource.Play();
+        audioSource.PlayOneShot(audioSource.clip);
     }
 }

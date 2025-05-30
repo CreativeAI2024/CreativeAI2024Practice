@@ -21,6 +21,6 @@ public class CharacterMove : MonoBehaviour
     /// </summary>
     public void MovePosition()
     {
-        
+        this.transform.Translate(to.x, to.y, to.z);
     }
 }

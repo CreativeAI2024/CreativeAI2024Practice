@@ -28,7 +28,11 @@ public class CharacterJump : MonoBehaviour
     /// </summary>
     public void Jump()
     {
-        
+        if(isGround == true)
+        {
+            this.m_rigidbody.AddForce(transform.up * this.jumpPower);
+            isGround = false;
+        }
     }
     
     /// <summary>
@@ -37,6 +41,9 @@ public class CharacterJump : MonoBehaviour
     /// <param name="other">衝突したオブジェクト</param>
     public void OnCollisionEnter(Collision other)
     {
-        
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGround = true;
+        }
     }
 }

@@ -12,6 +12,6 @@ public class Piece
     /// </summary>
     public void Reverse()
     {
-        
+        IsFront = !IsFront;
     }
 }

@@ -22,6 +22,6 @@ public class ShowImage : MonoBehaviour
     /// </summary>
     public void ChangeImage()
     {
-        
+        image.sprite = sprite;
     }
 }
